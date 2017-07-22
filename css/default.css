@@ -2,7 +2,7 @@
 
 body
 {
-  background-color: mediumaquamarine;
+  background-color: black;
 }
 
 #gnav a
@@ -11,13 +11,13 @@ body
   padding:10px 0;
   text-align: center;
   text-decoration: none;
-  background: darkgreen;
+  background: darkred;
   color: white;
 }
 
 #gnav a:hover
 {
-  background: lightgreen;
+  background: lightgred;
   color:black;
 }
 
