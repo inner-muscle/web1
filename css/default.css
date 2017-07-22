@@ -1,1 +1,22 @@
+@charset "utf-8";
 
+body
+{
+  background-color: mediumaquamarine;
+}
+
+.breadcrumbs li
+{
+  display:inline;
+  list-style-type: none;
+}
+
+.breadcrumbs li:before
+{
+  content:" > ";
+}
+
+.breadcrumbs li:first-child:before
+{
+  content:"";
+}
