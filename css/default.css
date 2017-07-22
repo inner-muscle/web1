@@ -17,7 +17,7 @@ body
 
 #gnav a:hover
 {
-  background: lightred;
+  background: red;
   color:black;
 }
 
