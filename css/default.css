@@ -5,6 +5,40 @@ body
   background-color: mediumaquamarine;
 }
 
+#gnav a
+{
+  display: block;
+  padding:10px 0;
+  text-align: center;
+  text-decoration: none;
+  background: darkgreen;
+  color: white;
+}
+
+#gnav a:hover
+{
+  background: lightgreen;
+  color:black;
+}
+
+#gnav ul
+{
+  overflow: hidden;
+}
+
+#gnav li
+{
+  float:left;
+  width: 156px;
+  border-right: white 1px solid;
+  list-style-type: none;
+}
+
+#gnav li:first-child
+{
+  border-left: white 1pxsolid;
+}
+
 .breadcrumbs li
 {
   display:inline;
