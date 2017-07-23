@@ -1,9 +1,9 @@
-var thmubs = document.querySelectorAll('.thmub');
-for(idx in thmubs)
+var sidthmubs = document.querySelectorAll('.Sid');
+for(idx in sidthmubs)
 {
-  thmubs[idx].onclick = function()
+  sidthmubs[idx].onclick = function()
   {
-    document.getElementById("changesid).src = 'img/' + this.dataset.image + '.jpg';
+    document.getElementById("changesid").src = 'img/' + this.dataset.image + '.jpg';
   }
 }
 
