@@ -1,4 +1,4 @@
-var sidthmubs = document.querySelectorAll('.Sid');
+var thmubs = document.querySelectorAll('.thmub');
 for(idx in thmubs)
 {
   thmubs[idx].onclick = function()
