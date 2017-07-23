@@ -16,6 +16,60 @@ for(idx in joeythmubs)
   }
 }
 
+var paulthmubs = document.querySelectorAll('.Paul');
+for(idx in paulthmubs)
+{
+  paulthmubs[idx].onclick = function()
+  {
+    document.getElementById("changepaul").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
+var christhmubs = document.querySelectorAll('.Chris');
+for(idx in christhmubs)
+{
+  christhmubs[idx].onclick = function()
+  {
+    document.getElementById("changechris").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
+var craigthmubs = document.querySelectorAll('.Craig');
+for(idx in craigthmubs)
+{
+  craigthmubs[idx].onclick = function()
+  {
+    document.getElementById("changecraig").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
+var shawnthmubs = document.querySelectorAll('.Shawn');
+for(idx in shawnthmubs)
+{
+  shawnthmubs[idx].onclick = function()
+  {
+    document.getElementById("changeshwan").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
+var mickthmubs = document.querySelectorAll('.Mick');
+for(idx in mickthmubs)
+{
+  mickthmubs[idx].onclick = function()
+  {
+    document.getElementById("changemick").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
+var coreythmubs = document.querySelectorAll('.Corey);
+for(idx in coreythmubs)
+{
+  coreythmubs[idx].onclick = function()
+  {
+    document.getElementById("changecorey").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
 function getFileName()
 {
   return window.location.href.split('/').pop();
