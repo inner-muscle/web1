@@ -57,7 +57,7 @@ for(idx in shawnthmubs)
 {
   shawnthmubs[idx].onclick = function()
   {
-    document.getElementById("changeshwan").src = 'img/' + this.dataset.image + '.jpg';
+    document.getElementById("changeshawn").src = 'img/' + this.dataset.image + '.jpg';
   }
 }
 
