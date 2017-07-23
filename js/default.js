@@ -116,7 +116,7 @@ else if(filename === 'shawn.html')
 }
 else if(filename === 'mick.html')
 {
-  opt = document.querySelector('option[value="mickhtml"]');
+  opt = document.querySelector('option[value="mick.html"]');
 }
 else if(filename === 'corey.html')
 {
