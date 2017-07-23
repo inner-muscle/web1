@@ -1,7 +1,7 @@
-var Sidthmubs = document.querySelectorAll('.Sid');
+var thmubs = document.querySelectorAll('.thmub');
 for(idx in Sidthmubs)
 {
-  Sidthmubs[idx].onclick = function()
+  thmubs[idx].onclick = function()
   {
     document.getElementById("changesid).src = 'img/' + this.dataset.image + '.jpg';
   }
