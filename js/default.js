@@ -10,42 +10,42 @@ if(filename === 'sid.html')
   opt = document.querySelector('option[value="sid.html"]');
 }
 
-else　if(filename === 'joey.html')
+if(filename === 'joey.html')
 {
   opt = document.querySelector('option[value="joey.html"]');
 }
 
-else　if(filename === 'paul.html')
+if(filename === 'paul.html')
 {
   opt = document.querySelector('option[value="paul.html"]');
 }
 
-else　if(filename === 'chris.html')
+if(filename === 'chris.html')
 {
   opt = document.querySelector('option[value="chris.html"]');
 }
 
-else　if(filename === 'jim.html')
+if(filename === 'jim.html')
 {
   opt = document.querySelector('option[value="jim.html"]');
 }
 
-else　if(filename === 'craig.html')
+if(filename === 'craig.html')
 {
   opt = document.querySelector('option[value="craig.html"]');
 }
 
-else　if(filename === 'shawn.html')
+if(filename === 'shawn.html')
 {
   opt = document.querySelector('option[value="shawn.html"]');
 }
 
-else　if(filename === 'mick.html')
+if(filename === 'mick.html')
 {
   opt = document.querySelector('option[value="mickhtml"]');
 }
 
-else　if(filename === 'corey.html')
+if(filename === 'corey.html')
 {
   opt = document.querySelector('option[value="corey.html"]');
 }
