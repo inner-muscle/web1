@@ -1,4 +1,4 @@
-var thmubs = document.querySelecyorAll('.thumb');
+var thmubs = document.querySelectorAll('.thumb');
 for(idx in thmubs)
 {
   thmubs[idx].onclick = function()
