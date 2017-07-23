@@ -61,7 +61,7 @@ for(idx in mickthmubs)
   }
 }
 
-var coreythmubs = document.querySelectorAll('.Corey);
+var coreythmubs = document.querySelectorAll('.Corey');
 for(idx in coreythmubs)
 {
   coreythmubs[idx].onclick = function()
