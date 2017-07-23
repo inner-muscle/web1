@@ -22,7 +22,9 @@
         </select>
       </form>
     </nav>
-    <section>ジョーイ</section>
+    <section>
+      <p>ジョーイ</p>
+    </section>
     <script type="text/javascript" src="js/default.js"></script>
   </body>
 </html>
