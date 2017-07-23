@@ -7,6 +7,15 @@ for(idx in sidthmubs)
   }
 }
 
+var joeythmubs = document.querySelectorAll('.Joey');
+for(idx in joeythmubs)
+{
+  joeythmubs[idx].onclick = function()
+  {
+    document.getElementById("changejoey").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
 function getFileName()
 {
   return window.location.href.split('/').pop();
