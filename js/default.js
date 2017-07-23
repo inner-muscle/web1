@@ -34,6 +34,15 @@ for(idx in christhmubs)
   }
 }
 
+var jimithmubs = document.querySelectorAll('.Jim');
+for(idx in jimthmubs)
+{
+  jimthmubs[idx].onclick = function()
+  {
+    document.getElementById("changejim").src = 'img/' + this.dataset.image + '.jpg';
+  }
+}
+
 var craigthmubs = document.querySelectorAll('.Craig');
 for(idx in craigthmubs)
 {
