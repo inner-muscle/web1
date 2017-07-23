@@ -34,7 +34,7 @@ for(idx in christhmubs)
   }
 }
 
-var jimithmubs = document.querySelectorAll('.Jim');
+var jimthmubs = document.querySelectorAll('.Jim');
 for(idx in jimthmubs)
 {
   jimthmubs[idx].onclick = function()
