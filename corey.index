@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>コリィ</title>
+  </head>
+  <body>
+    <nav>
+      <form id="form">
+        <select name="select">
+          <option value="index.html">メインページ</option>
+          <option value="sid.html">シド・ウィルソン</option>
+          <option value="sid.html">ジョーイ・ジョーディンソン</option>
+          <option value="sid.html">ポール・グレイ</option>
+          <option value="sid.html">クリス・フェーン</option>
+          <option value="sid.html">ジェイムズ・ルート</option>
+          <option value="sid.html">クレイグ・ジョーンズ</option>
+          <option value="sid.html">ショーン・クラハン</option>
+          <option value="sid.html">ミック・トムソン</option>
+          <option value="sid.html">コリィ・テイラー/option>
+        </select>
+      </form>
+    </nav>
+    <section>
+      <p>/p>
+    </section>
+    <script type="text/javascript" src="js/default.js"></script>
+  </body>
+</html>
